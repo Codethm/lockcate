@@ -1,3 +1,23 @@
+<?php
+include_once('connect.php');
+
+if(! empty($_POST['Name'])&& !empty($_POST['Lastname'])&& !empty($_POST['Address']) && !empty($_POST['Email']) && !empty($_POST['Telephonenumber']))
+{
+$Name = $_POST['Name'];
+$Lastname = $_POST['Lastname'];
+$Address = $_POST['Address'];
+$Email = $_POST['Email'];
+$phone = $_POST['Telephonenumber'];
+
+$sql = "INSERT INTO `seller`( `ชื่อ`, `เบอร์ติดต่อ`, `ที่อยู่`, `Email`) VALUES 
+('$Name $Lastname','$Address','$Email','$phone')";
+echo($sql);
+$conn ->exec($sql);
+//header("Location: index.php");
+}
+?>
+
+
 <!DOCTYPE html>
 <html>
 <title>Seller</title>
@@ -25,35 +45,33 @@ body, html {
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
       </div>
-      <form action="/action_page.php" target="_blank">
+      <form method="POST" target="_self" id="form1">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
             <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
           </div>     
           <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Lastname" required name="Email">
+            <input class="w3-input w3-border" type="text" placeholder="Lastname" required name="Lastname">
           </div>
         </div>
         <br>
-        <input class="w3-input w3-border" type="text" placeholder="Address" required name="Message">
+        <input class="w3-input w3-border" type="text" placeholder="Address" required name="Address">
         <div class="w3-half">
-          <br>          
-      <form action="/action_page.php" target="_blank">
+          <br>    
         <div class="w3-row-padding" style="margin:0 -318px 8px -16px">
           <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Name">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
           </div>     
           <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Telephonenumber" required name="Email">
+            <input class="w3-input w3-border" type="text" placeholder="Telephonenumber" required name="Telephonenumber">
           </div>
         </div>
         <br>
         <div class="w3-half">
-        <button class="w3-button w3-black w3-right w3-section" type="button" onclick="window.location='shop.php'"  type="submit"  >
+        <button class="w3-button w3-black w3-right w3-section" type="submit" form="form1" value="Submit" >
           <i class="fa fa-paper-plane"></i> Next
           
         </button>  
-      </form>
     </div>
   </div>
 </div>
