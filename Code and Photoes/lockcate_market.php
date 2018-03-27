@@ -55,26 +55,27 @@ body, html {
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
-    <img src="KN.jpg" style="width:84%" onclick="onClick(this)" class="w3-hover-opacity" alt="Market name:��Ҵ�ú���<br> Owner name : ˹�� <br>Tel :0913326419 <br> Email : Pissanufc@gmail.com <br> Page :��Ҵ�ú��� <br> Address :�ú���">
-    <h4>��Ҵ�ú���</h4>
+    <img src="KN.jpg" style="width:84%" onclick="onClick(this)" class="w3-hover-opacity" alt="Market name:ตลาดครบุรี<br>
+     Owner name : โด่ง <br>Tel :0913326419 <br> Email : Pissanufc@gmail.com <br> Page :ครบุรี <br> Address :ครบุรี">
+    <h4>ตลาดครบุรี</h4>
       <input name="btnSubmit" type="button" onclick="window.location='photofrommarket.php'" type="submit"  value="Select">
   </div>
 
   <div class="w3-col m3">
-    <img src="77.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="MarketName : <br>Owner Name : <br>Tel : <br> Email : <br> Page : <br> addess :">
-      <h4>��Ҵ૿�ѹ</h4>
+    <img src="77.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="MarketName ">
+      <h4>ตลาดเซฟวัน</h4>
       <input name="btnSubmit" type="button" onclick="window.location='output.php'" type="submit"  value="Select">
   </div>
 
   <div class="w3-col m3">
     <img src="000.jpg" style="width:85%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
-          <h4>��Ҵ����ء</h4>
+          <h4>ตลาดสามชุก</h4>
           <input name="btnSubmit" type="button" onclick="window.location='output.php'" type="submit"  value="Select">
   </div>
 
   <div class="w3-col m3">
     <img src="50.jpg" style="width:75%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
-    <h4>��Ҵ���ͧ���</h4>
+    <h4>ตลาดเมืองย่า</h4>
     <input name="btnSubmit" type="button" onclick="window.location='output.php'" type="submit"  value="Select">
   </div>
 </div>
