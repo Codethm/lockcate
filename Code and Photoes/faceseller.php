@@ -13,7 +13,7 @@ $sql = "INSERT INTO `seller`( `ชื่อ`, `เบอร์ติดต่อ
 ('$Name $Lastname','$Address','$Email','$phone')";
 echo($sql);
 $conn ->exec($sql);
-//header("Location: index.php");
+header("Location: shop.php");
 }
 ?>
 
