@@ -51,7 +51,7 @@ body, html {
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
       <img src="1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
-      <h4>ß“πÕ’‡«Èπ∑Ï °—πµπ“</h4>
+      <h4>‡∏á‡∏≤‡∏ô Event ‡∏Å‡∏±‡∏ô‡∏ï‡∏ô‡∏≤</h4>
       <br>
 
        <input name="btnSubmit" type="button" onclick="window.location='photo from event.php'" type="submit"  value="Select">
@@ -59,7 +59,7 @@ body, html {
 
     <div class="w3-col m3">
       <img src="2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Market">
-      <h4>ß“πÕ’‡«Èπ∑Ï Embassy</h4>
+      <h4>‡∏á‡∏≤‡∏ô Event Embassy</h4>
         <br>
 
        <input name="btnSubmit" type="button" onclick="window.location='output.php'" type="submit"  value="Select">
@@ -67,7 +67,7 @@ body, html {
 
     <div class="w3-col m3">
       <img src="3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Event">
-      <h4>ß“πÕ’‡«Èπ∑Ï Little Japan</h4>
+      <h4>‡∏á‡∏≤‡∏ô Event Little Japan</h4>
       <br>
 
        <input name="btnSubmit" type="button" onclick="window.location=''" type="submit"  value="Select">
@@ -75,7 +75,7 @@ body, html {
 
     <div class="w3-col m3">
       <img src="44.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Event">
-      <h4>ß“πÕ’‡«Èπ∑Ï Art Box</h4>
+      <h4>‡∏á‡∏≤‡∏ô Event Art Box</h4>
       <br>
       <input name="btnSubmit" type="button" onclick="window.location='output.php'" type="submit"  value="Select">
     </div>
