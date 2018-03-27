@@ -9,8 +9,8 @@ $Address = $_POST['Address'];
 $Email = $_POST['Email'];
 $phone = $_POST['Telephonenumber'];
 
-$sql = "INSERT INTO `seller`( `ชื่อ`, `เบอร์ติดต่อ`, `ที่อยู่`, `Email`) VALUES 
-('$Name $Lastname','$Address','$Email','$phone')";
+$sql = "INSERT INTO `seller`( `name`, `tel`, `address`,`Email`) VALUES 
+('$Name $Lastname','$phone','$Address','$Email')";
 echo($sql);
 $conn ->exec($sql);
 header("Location: shop.php");

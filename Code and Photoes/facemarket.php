@@ -1,4 +1,30 @@
 
+<?php
+include_once('connect.php');
+
+if(! empty($_POST['name'])&& !empty($_POST['owner'])&& !empty($_POST['tel']) && !empty($_POST['email']) && !empty($_POST['address']))
+{
+$Name = $_POST['name'];
+$owner = $_POST['owner'];
+$tel = $_POST['let'];
+$Email = $_POST['email'];
+$Address = $_POST['address'];
+
+$sql = "INSERT INTO `market`(`market name`, `contact`, `location`, `owner name`) VALUES
+('$Name','$phone','$Address','$owner')";
+echo($sql);
+$conn ->exec($sql);
+header("Location: market area 2.php");
+}
+?>
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html>
 <title>Lockcate</title>
@@ -28,28 +54,30 @@ h1,h2,h3,h4,h5,h6 {
        <p class="w3-jumbo w3-text-white">Sign Up</p>
    </div>
 
-    <form class="w3-container" action="/action_page.php" target="_blank">
+      <form method="POST" target="_self" id="form1">  
     <div class="w3-section">
       <label></label>
-      <input class="w3-input w3-border w3-hover-border-black " style="width:100%;" type="text" name="Name" required  placeholder="Market Name"><br><br>
+      <input class="w3-input w3-border w3-hover-border-black " style="width:100%;" type="text" name="name" required  placeholder="Market Name"><br><br>
     </div>
     <div class="w3-section">
       <label></label>
-      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Lname" required placeholder=" Owner market"><br><br>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="owner" required placeholder=" Owner market"><br><br>
     </div>
     <div class="w3-section">
       <label></label>
-      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="TEL" required placeholder="Tel">
-      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Email" required placeholder="Email">
-      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Page" required placeholder="Page">
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="tel" required placeholder="Tel">
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="email" required placeholder="Email">
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="page" required placeholder="Page">
     </div>
     <div class="w3-section">
       <label></label>
       <input class="w3-input w3-border w3-hover-border-black w3-xxxlarge" style="width:100%;" name="address" required  placeholder="address"><br><br>
     </div>
     <div class="w3-half">
-    <button class="w3-button w3-black w3-right w3-section" type="button" onclick="window.location='market area 2.php'"  type="submit"  >
-    <i class="fa fa-paper-plane"></i> Register
+    <button class="w3-button w3-black w3-right w3-section" type="submit" form="form1" value="Submit" name="submit" >
+          <i class="fa fa-paper-plane"></i> Next
+          
+        </button>   Register
   </form>
 
 </div>

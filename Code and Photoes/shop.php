@@ -5,8 +5,10 @@ include_once('connect.php');
 if(! empty($_POST['Owner'])&& !empty($_POST['Store'])&& !empty($_POST['Product']) && !empty($_POST['Description']) && !empty($_POST['Telephone']) && !empty($_POST['Email']) && !empty($_POST['Page']))
 {
 
-
-  $idsell = $conn ->lastInsertId();
+  $stmt = $conn->prepare("SELECT MAX(idseller) AS max_id FROM seller");
+  $stmt -> execute();
+  $invNum = $stmt -> fetch(PDO::FETCH_ASSOC);
+  $max_id = $invNum['max_id'];
 
   
 $target_dir = "uploads/";
@@ -62,11 +64,10 @@ $email = $_POST['Email'];
 $page = $_POST['Page'];
 
 
-$sql = "INSERT INTO `store`(`Email`, `เบอร์ติดต่อ`, `seller_idseller`,`ชื่อเจ้าของร้าน`, `สินค้า`, `คำอธิบายสินค้า`, `ชื่อร้าน`) VALUES
-('$email','$phone','$idsell','$Owner','$Product','$Description','$Store')";
-echo($sql);
+$sql = "INSERT INTO `store`(`name`, `name owner`, `type of product`, `seller_idseller`) VALUES
+('$Store','$Owner','$Product','$max_id')";
 $conn ->exec($sql);
-//header("Location: index.php");
+header("Location:Output store.php");
 }
 ?>
 

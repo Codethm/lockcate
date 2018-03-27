@@ -23,7 +23,7 @@ USE `mydb` ;
 DROP TABLE IF EXISTS `mydb`.`seller` ;
 
 CREATE TABLE IF NOT EXISTS `mydb`.`seller` (
-  `idseller` INT NOT NULL,
+  `idseller` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
   `tel` VARCHAR(45) NULL,
   `address` VARCHAR(45) NULL,
@@ -37,7 +37,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `mydb`.`bank account` ;
 
 CREATE TABLE IF NOT EXISTS `mydb`.`bank account` (
-  `idbank account` INT NOT NULL,
+  `idbank account` INT NOT NULL AUTO_INCREMENT,
   `seller_idseller` INT NOT NULL,
   `concact` VARCHAR(45) NULL,
   `name` VARCHAR(45) NULL,
@@ -57,7 +57,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `mydb`.`receipt` ;
 
 CREATE TABLE IF NOT EXISTS `mydb`.`receipt` (
-  `idreceipt` INT NULL,
+  `idreceipt` INT NULL AUTO_INCREMENT,
   `amount` VARCHAR(45) NULL,
   `time` VARCHAR(45) NULL,
   `reservation` VARCHAR(45) NULL,
@@ -78,7 +78,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `mydb`.`event` ;
 
 CREATE TABLE IF NOT EXISTS `mydb`.`event` (
-  `idevent` INT NOT NULL,
+  `idevent` INT NOT NULL AUTO_INCREMENT,
   `contact` VARCHAR(45) NULL,
   `event name` VARCHAR(45) NULL,
   `location` VARCHAR(45) NULL,
@@ -93,7 +93,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `mydb`.`market` ;
 
 CREATE TABLE IF NOT EXISTS `mydb`.`market` (
-  `idmarket` INT NOT NULL,
+  `idmarket` INT NOT NULL AUTO_INCREMENT,
   `market name` VARCHAR(45) NULL,
   `contact` VARCHAR(45) NULL,
   `location` VARCHAR(45) NULL,
@@ -108,7 +108,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `mydb`.`store` ;
 
 CREATE TABLE IF NOT EXISTS `mydb`.`store` (
-  `idstore` INT NOT NULL,
+  `idstore` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
   `name owner` VARCHAR(45) NULL,
   `contact` VARCHAR(45) NULL,
@@ -145,7 +145,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `mydb`.`market area` ;
 
 CREATE TABLE IF NOT EXISTS `mydb`.`market area` (
-  `idmarket area` INT NOT NULL,
+  `idmarket area` INT NOT NULL AUTO_INCREMENT,
   `position in the market` VARCHAR(45) NULL,
   `market size` VARCHAR(45) NULL,
   `rental price` VARCHAR(45) NULL,
@@ -168,7 +168,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `mydb`.`event area` ;
 
 CREATE TABLE IF NOT EXISTS `mydb`.`event area` (
-  `idevent area` INT NOT NULL,
+  `idevent area` INT NOT NULL AUTO_INCREMENT,
   `event space` VARCHAR(45) NULL,
   `event location` VARCHAR(45) NULL,
   `rental price` VARCHAR(45) NULL,
