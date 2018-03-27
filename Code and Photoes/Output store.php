@@ -50,23 +50,23 @@ body, html {
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-    <img src="KL.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Owner name : Àπ÷Ëß <br> Store Name: Bar Bq <br> Product:Bar BQ<br> Tel :0913326419 <br> Email : Pissanufc@gmail.com <br> Page :Bar BQ<br>§√∫ÿ√’ <br> Page :Bar BQ<br>§√∫ÿ√’">
+    <img src="KL.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Owner name : ÀπÔøΩÔøΩ <br> Store Name: Bar Bq <br> Product:Bar BQ<br> Tel :0913326419 <br> Email : Pissanufc@gmail.com <br> Page :Bar BQ<br>ÔøΩ√∫ÔøΩÔøΩÔøΩ <br> Page :Bar BQ<br>ÔøΩ√∫ÔøΩÔøΩÔøΩ">
     <h4>Bar BQ</h4>
   </div>
 
   <div class="w3-col m3">
-    <img src="p2.jpg" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="√È“π™“π¡">
-    <h4>™“π¡‚µÍ‚µ</h4>
+    <img src="p2.jpg" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="ÔøΩÔøΩ“πÔøΩ“πÔøΩ">
+    <h4>‡∏ä‡∏≤‡∏ô‡∏°‡πÑ‡∏Ç‡πà‡∏°‡∏∏‡∏Å‡∏ã‡πà‡∏≤</h4>
   </div>
 
   <div class="w3-col m3">
-    <img src="p3.jpg" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="√È“π¢“¬≈Ÿ°™‘Èπ">
-    <h4>≈Ÿ°™‘Èπ «√√§Ï</h4>
+    <img src="p3.jpg" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="ÔøΩÔøΩ“πÔøΩÔøΩÔøΩÔøΩŸ°ÔøΩÔøΩÔøΩ">
+    <h4>‡∏•‡∏π‡∏Å‡∏ä‡∏¥‡πâ‡∏ô‡∏ó‡∏≠‡∏î‡∏î</h4>
   </div>
 
   <div class="w3-col m3">
-    <img src="p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="√È“π È¡µ”">
-    <h4> È¡µ”π√°</h4>
+    <img src="p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ÔøΩÔøΩ“πÔøΩÔøΩÔøΩÔøΩÔøΩ">
+    <h4>‡∏™‡πâ‡∏°‡∏ï‡πâ‡∏≤‡∏°‡∏°</h4>
   </div>
   </div>
 
