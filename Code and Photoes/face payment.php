@@ -28,16 +28,16 @@ body, html {
       <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
-          ™◊ËÕ≈Ÿ°§È“
-            <input class="w3-input w3-border"  placeholder="π“¬ æ‘…≥ÿ ª‘ËπÀÕ¡" required name="Name">
+          ‡∏ä‡∏∑‡πà‡∏≠
+            <input class="w3-input w3-border"  placeholder="‡∏ô‡∏≤‡∏¢‡∏ß‡∏µ‡∏£‡∏∞‡∏û‡∏á‡∏©‡πå  ‡∏à‡∏∏‡∏•‡∏ö‡∏ó" required name="Name">
           </div>
-          √À— ≈Ÿ°§È“     
+          ‡∏£‡∏´‡∏±‡∏™     
           <div class="w3-half">
             <input class="w3-input w3-border" type="text" placeholder="NA0001" required name="Email">
           </div>
         </div>
         <br>
-        Õ’‡¡≈-‡∫Õ√Ï‚∑√ ≈Ÿ°§È“         
+        ‡∏≠‡∏µ‡πÄ‡∏°‡∏•-‡πÄ‡∏ö‡∏≠‡∏£‡πå‡∏ï‡∏¥‡∏î‡∏ï‡πà‡∏≠         
       <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -318px 8px -16px">
           <div class="w3-half">
@@ -49,42 +49,42 @@ body, html {
           <br>  
         </div>
         <br>
-        ‡≈◊Õ°∏π“§“√∑’ËµÈÕß°“√™”√–
+        ‡πÄ‡∏•‡∏∑‡∏≠‡∏Å‡∏ò‡∏ô‡∏≤‡∏Ñ‡∏≤‡∏£‡∏ó‡∏µ‡πà‡∏ï‡πâ‡∏≠‡∏á‡∏Å‡∏≤‡∏£‡∏ä‡∏≥‡∏£‡∏∞‡πÄ‡∏á‡∏¥‡∏ô
           <select>
-          <option value="∏π“§“√°√ÿß‰∑¬">---</option>
-          <option value="∏π“§“√°√ÿß‰∑¬">∏π“§“√°√ÿß‰∑¬</option>
-          <option value="∏π“§“√°√ÿß‡∑æ">∏π“§“√°√ÿß‡∑æ</option>
+          <option value="‡∏ò‡∏ô‡∏≤‡∏Ñ‡∏≤‡∏£‡∏Å‡∏£‡∏∏‡∏á‡πÑ‡∏ó‡∏¢">---</option>
+          <option value="‡∏ò‡∏ô‡∏≤‡∏Ñ‡∏≤‡∏£‡∏Å‡∏™‡∏¥‡∏Å‡∏£">‡∏ò‡∏ô‡∏≤‡∏Ñ‡∏≤‡∏£‡∏Å‡∏™‡∏¥‡∏Å‡∏£</option>
+          <option value="‡∏ò‡∏ô‡∏≤‡∏Ñ‡∏≤‡∏£‡∏≠‡∏≠‡∏°‡∏™‡∏¥‡∏ô">‡∏ò‡∏ô‡∏≤‡∏Ñ‡∏≤‡∏£‡∏≠‡∏≠‡∏°‡∏™‡∏¥‡∏ô</option>
           </select>
         <br>
         <br>
-        À¡“¬‡≈¢∫—≠™’
-        <input class="w3-input w3-border" type="text" placeholder="°√ÿ≥“°√Õ°À¡“¬‡≈¢∫—≠™’∏π“§“√" required name="Message">
+        ‡∏´‡∏°‡∏≤‡∏¢‡πÄ‡∏•‡∏Ç‡∏ö‡∏±‡∏ç‡∏ä‡∏µ
+        <input class="w3-input w3-border" type="text" placeholder="‡∏Å‡∏£‡∏≠‡∏Å‡∏´‡∏°‡∏≤‡∏¢‡πÄ‡∏•‡∏Ç‡∏ö‡∏±‡∏ç‡∏ä‡∏µ" required name="Message">
         <div class="w3-half">
         <br>
         <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
-          √À— æ◊Èπ∑’Ë
+          ‡∏£‡∏´‡∏±‡∏™‡∏û‡∏∑‡πâ‡∏ô‡∏ó‡∏µ‡πà
             <input class="w3-input w3-border"  placeholder="LC0047" required name="Name">
           </div>
-          ™◊ËÕæ◊Èπ∑’Ë     
+          ‡∏ä‡∏∑‡πà‡∏≠‡∏û‡∏∑‡πâ‡∏ô‡∏ó‡∏µ‡πà     
           <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="‚´π∑’Ë 15" required name="Email">
+            <input class="w3-input w3-border" type="text" placeholder="‡πÇ‡∏ã‡∏ô‡∏ó‡∏µ‡πà 15" required name="Email">
           </div>
         </div>
         <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
-          §«“¡°«È“ß
-            <input class="w3-input w3-border"  placeholder="5 ‡¡µ√" required name="Name">
+          ‡∏Ñ‡∏ß‡∏≤‡∏°‡∏Å‡∏ß‡πâ‡∏≤‡∏á
+            <input class="w3-input w3-border"  placeholder="5 ‡πÄ‡∏°‡∏ï‡∏£" required name="Name">
           </div>
-          §«“¡¬“«     
+          ‡∏Ñ‡∏ß‡∏≤‡∏°‡∏¢‡∏≤‡∏ß     
           <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="3 ‡¡µ√" required name="Email">
+            <input class="w3-input w3-border" type="text" placeholder="3 ‡πÄ‡∏°‡∏ï‡∏£" required name="Email">
           </div><br>
         </div>
-        ®”π«π‡ß‘π∑’ËµÈÕß™”√–
-        <input class="w3-input w3-border" type="text" placeholder="3000 ∫“∑" required name="Message">
+        ‡∏à‡∏≥‡∏ô‡∏ß‡∏ô‡πÄ‡∏á‡∏¥‡∏ô‡∏ó‡∏µ‡πà‡∏ï‡πâ‡∏≠‡∏á‡∏ä‡∏≥‡∏£‡∏∞
+        <input class="w3-input w3-border" type="text" placeholder="3000 ‡∏ö‡∏≤‡∏ó" required name="Message">
         <div class="w3-half">
         <button class="w3-button w3-black w3-right w3-section" type="button" onclick="window.location='Receipt.php'"  type="submit"  >
           <i class="fa fa-paper-plane"></i> Payment

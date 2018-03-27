@@ -50,21 +50,21 @@ body, html {
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-    <img src="KL.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Owner name : æ‘…≥ÿ ª‘ËπÀÕ¡ <br> Store Name: Bar Bq <br> Product:Bar BQ<br> Tel :0913326419 <br> Email : Pissanufc@gmail.com <br> Page :Bar BQ<br>§√∫ÿ√’">
-      <h4>√È“π§È“</h4>
+    <img src="KL.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Owner name : boat <br> Store Name: Bar Bq <br> Product:Bar BQ<br> Tel :091-5326419 <br> Email : Pissanufc@gmail.com <br> Page :Bar BQ">
+      <h4>BAR BQ</h4>
      </div>
 
     <div class="w3-col m3">
-      <img src="KN.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Market name:µ≈“¥§√∫ÿ√’<br> Owner name : Àπ÷Ëß <br>Tel :0913326419 <br> Email : Pissanufc@gmail.com <br> Page :µ≈“¥§√∫ÿ√’ <br> Address :§√∫ÿ√’">
-      <h4>µ≈“¥</h4>
+      <img src="KN.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Market name:ÔøΩÔøΩ“¥ÔøΩ√∫ÔøΩÔøΩÔøΩ<br> Owner name : ‡∏≠‡πâ‡∏ô <br>Tel :091-3326412 <br> Email : Pissanufc@gmail.com <br> Page :‡∏ï‡∏•‡∏≤‡∏î‡∏Ñ‡∏£‡∏ö‡∏∏‡∏£‡∏µ <br> Address :‡∏Ñ‡∏£‡∏ö‡∏∏‡∏£‡∏µ">
+      <h4>‡∏ï‡∏•‡∏≤‡∏î‡∏Ñ‡∏£‡∏ö‡∏∏‡∏£‡∏µ </h4>
       <input name="btnSubmit" type="button" onclick="window.location='photofrommarket.php'" type="submit"  value="Select">
     </div>
 
     <div class="w3-col m3">
 
-          <img src="1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Event Name : ß“πÕ’‡«Èπ∑Ï §√∫ÿ√’<br>Tel :0913326419 <br> Email : Pissanufc@gmail.com <br> Page :ß“πÕ’‡«Èπ∑Ï §√∫ÿ√’ <br> About Event :ß“πÕ’‡«Èπ∑Ï ∑’Ë¡’§ÿ≥¿“æ  <br> Location : µ≈“¥§√∫ÿ√’ <br>Category : ß“π‡∑»°“≈¥πµ√’
+          <img src="1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Event Name : ‡∏á‡∏≤‡∏ô Event ‡∏Å‡∏±‡∏ô‡∏ï‡∏ô‡∏≤<br>Tel :091-3326419 <br> Email : Pissanufc@gmail.com <br> <br> About Event : ‡∏á‡∏≤‡∏ô Event ‡∏ó‡∏µ‡πà‡∏°‡∏µ‡∏Ñ‡∏∏‡∏ì‡∏†‡∏≤‡∏û <br> Location : ‡∏ï‡∏•‡∏≤‡∏î‡∏Ñ‡∏£‡∏ö‡∏∏‡∏£‡∏µ <br>Category : ‡∏á‡∏≤‡∏ô‡πÄ‡∏ó‡∏®‡∏Å‡∏≤‡∏•‡∏î‡∏ô‡∏ï‡∏£‡∏µ
 <br> date :3/1/2018 <br> Time :19:00 - 23:00"> 
-          <h4>ß“πÕ’‡«Èπ∑Ï §√∫ÿ√’</h4>
+          <h4>‡∏á‡∏≤‡∏ô Event ‡∏Å‡∏±‡∏ô‡∏ï‡∏ô‡∏≤</h4>
             <input name="btnSubmit" type="button" onclick="window.location='photo from event.php'" type="submit"  value="Select">
           <br>
   </div>
