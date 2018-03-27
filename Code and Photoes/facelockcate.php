@@ -29,10 +29,8 @@ Lockcate</h1>
 <div class="w3-half">
         <button class="w3-button w3-black w3-right w3-section" type="button" onclick="window.location='about.php'"  type="submit"  >
           <i class="fa fa-folder"></i> About &nbsp;&nbsp;&nbsp;
-          <button class="w3-button w3-black w3-right w3-section" type="button" onclick="window.location='about.php'"  type="submit"  > 
-          <i class="fa fa-folder"></i> developer
-          
-        </button>  
+          </button>  <br><br>
+        <a href="http://127.0.0.1/phpmyadmin/">developer</a>
 </div>
 
 </body>
