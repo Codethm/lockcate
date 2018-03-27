@@ -50,22 +50,22 @@ body, html {
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3">
-    <img src="KL.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Owner name : ˹�� <br> Store Name: Bar Bq <br> Product:Bar BQ<br> Tel :0913326419 <br> Email : Pissanufc@gmail.com <br> Page :Bar BQ<br>�ú��� <br> Page :Bar BQ<br>�ú���">
+    <img src="KL.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Owner name : ฟร้องกี้ <br> Store Name: Bar Bq <br> Product:Bar BQ<br> Tel :091-3326419 <br> Email : Pissanufc@gmail.com <br> Page :Bar BQ<br>ครบุรี <br>">
     <h4>Bar BQ</h4>
   </div>
 
   <div class="w3-col m3">
-    <img src="p2.jpg" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="��ҹ�ҹ�">
+    <img src="p2.jpg" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="ชานม">
     <h4>ชานมไข่มุกซ่า</h4>
   </div>
 
   <div class="w3-col m3">
-    <img src="p3.jpg" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="��ҹ����١���">
+    <img src="p3.jpg" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="ทอด">
     <h4>ลูกชิ้นทอดด</h4>
   </div>
 
   <div class="w3-col m3">
-    <img src="p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="��ҹ�����">
+    <img src="p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="ส้มตำ">
     <h4>ส้มต้ามม</h4>
   </div>
   </div>
